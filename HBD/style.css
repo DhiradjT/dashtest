@@ -141,8 +141,8 @@ h3.herodocs {
 
   .circle-container-2 {
     position: relative;
-    width: 65px; /* Adjust the width of the circle */
-    height: 65px; /* Adjust the height of the circle */
+    width: 55px; /* Adjust the width of the circle */
+    height: 55px; /* Adjust the height of the circle */
     border-radius: 50%;
     overflow: hidden;
   }
@@ -162,4 +162,21 @@ h3.herodocs {
     font-size: 24px; /* Adjust the font size of the icon */
   }
 
+  
+  .circle-background-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+}
 
+.custom-background {
+  background-color: #0B1518 !important;
+}
+
+.bekijk-a {
+  color: #000;
+  text-decoration: none;
+}
